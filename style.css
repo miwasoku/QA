@@ -1,0 +1,139 @@
+/* used for font-family */
+body {
+  font-family: "Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W3","ＭＳ Ｐゴシック",sans-serif;
+  user-select: none;
+  -moz-user-select: none; /* firefox */
+  -webkit-user-select: none; /* Chrome */
+  -ms-user-select: none; /* IE10~ */
+}
+
+/* common */
+.red {
+  color: red;
+}
+
+.big {
+  font-size: 50px;
+}
+
+.medium {
+  font-size: 30px;
+}
+
+/* in section */
+#quiz {
+  width: 800px;
+  height: 600px;
+  border: solid 1px gray;
+  background-color: #b0edf5;
+  margin-left: 20px;
+  margin-top: 20px;
+  overflow:hidden;
+}
+
+/* title */
+#start {
+  margin-left: 250px;
+  margin-top: 60px;
+}
+
+#title {
+  font-size: 50px;
+}
+
+#preface {
+  position: relative;
+  right: 25px;
+  margin-top: 20px;
+  padding-right: 100px;
+}
+
+#startbtn {
+  margin-top: 40px;
+  margin-left: 75px;
+}
+
+/* in_quiz */
+#quizboard {
+  margin: 20px 20px;
+  padding: 20px 280px 180px 20px;
+  height: 200px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+#question {
+}
+
+.choice {
+  text-align: center;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+.choice span {
+  color: white;
+  font-size: 120%;
+  font-weight: bold;
+}
+
+.sign {
+  position: absolute;
+}
+
+#maru {
+  top: 50px;
+  left: 130px;
+}
+
+#batsu {
+  top: 130px;
+  left: 220px;
+}
+
+/* show_result */
+#result_text {
+  font-size: 30px;
+  letter-spacing: 150%;
+  margin-left: 20px;
+  margin-top: auto;
+}
+
+#word {
+  font-size: 40px;
+  letter-spacing: 150%;
+  margin-left: 30px;
+  width: auto;
+  padding-right: 0px;
+}
+
+.result {
+  font-size: 60px;
+  font-weight: bold;
+  color: red;
+  margin-right: 15px;
+}
+
+#picture {
+  margin-left: 30px;
+  margin-top: 13px;
+}
+
+#control {
+  position: absolute;
+  top: 440px;
+  left: 510px;
+  width: 180px;
+  height: 120px;
+  background-color: white;
+}
+
+#reset {
+  margin-left: 12px;
+  margin-top: 10px;
+}
+
+#tweet {
+  margin-left: 12px;
+  margin-top: 25px;
+}
