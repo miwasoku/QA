@@ -57,12 +57,14 @@ body {
 #quizboard {
   margin: 20px 20px;
   padding: 20px 280px 180px 20px;
+  width: 700px;
   height: 200px;
   background-color: white;
   border-radius: 20px;
 }
 
 #question {
+  width: 600px;
 }
 
 .choice {

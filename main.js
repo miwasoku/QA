@@ -1,6 +1,6 @@
 var quiz_num = 10; //number of question
 var choice_num = 4; //number of choice
-var len = 14;
+var len = 17;
 var current = 0;
 var right = 0;
 var data;
@@ -143,7 +143,7 @@ var show_result = function(){
     case 6: word += "上司"; picture="./joushi.jpg"; break;
     case 7: word += "るるも"; picture="./338.png"; break;
     case 8: word += "八岐大蛇"; picture="./yamata.jpg"; break;
-    case 9: word += "譽田真純"; picture="./smile.jpg"; break;
+    case 9: word += "譽田真純"; picture="./theman.png"; break;
     case 10: word += "人間"; picture="./human.jpg"; break;
     default: word += "判定不能";
   }
